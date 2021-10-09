@@ -9,6 +9,7 @@ namespace Playground.Models
 
         public string SerialNo { get; set; }
         public int Squarefeet { get; set; }
+        public bool Crossbraced { get; set; }
     }
 
     public enum ParachuteManufacturer

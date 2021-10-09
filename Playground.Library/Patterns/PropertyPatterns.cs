@@ -11,5 +11,6 @@ namespace Playground.Library.Patterns
     {
         public bool IsParachutePerformanceDesigns(Parachute parachute) => parachute is { Manufacturer: ParachuteManufacturer.PerformanceDesigns };
         public bool IsParachuteSub100(Parachute parachute) => parachute is { Squarefeet:  < 100};
+        public bool Ishighperformance(Parachute parachute) => parachute is { Squarefeet: < 120 } or { Crossbraced: true };
     }
 }
